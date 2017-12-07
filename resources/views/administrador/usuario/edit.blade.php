@@ -4,11 +4,11 @@
 <div class="modal fade" id="edit">
 	<div class="modal-dialog">
 		<div class="modal-content">
-			<div class="modal-header">
+			<div class="modal-header" id="modalCabecera">
 				<button type="button" class="close" data-dismiss="modal">
 					<span>&times;</span>
 				</button>
-				<h4 align="center">Editar</h4>
+				<h4 align="center" id="modalEditar">Editar</h4>
           <br>
           
           <div class="row" v-for="usuario in editUsuario" v-if="usuario.id_elemento==idElemento" >
@@ -163,7 +163,7 @@
       </div>
 			<div class="modal-footer">
 				<input  type="button" class="btn btn-primary" value="Cancelar" data-dismiss="modal">
-				<input type="button" class="btn btn-primary" value="Guardar" @click="createUsuario" >
+				<input type="button" class="btn btn-primary" value="Guardar" @click="createUsuario" id="btnguardar" >
 			</div>
 <!---
        <div class="row">

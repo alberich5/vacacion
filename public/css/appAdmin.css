@@ -4964,9 +4964,6 @@ tbody.collapse.in {
   vertical-align: middle;
 }
 
-
-/*cambios de los iconos*/
-
 .input-group-addon {
   padding: 6px 12px;
   font-size: 14px;
@@ -4974,14 +4971,10 @@ tbody.collapse.in {
   line-height: 1;
   color: #555555;
   text-align: center;
-  background-color: #D0D4DD !important;
-  border: 1px solid #D0D4DD !important;
+  background-color: white !important;
+  border: 1px solid white !important;
   border-radius: 4px;
 }
-
-
-
-
 
 .input-group-addon.input-sm,
 .input-group-sm > .input-group-addon,
@@ -11475,13 +11468,17 @@ fieldset[disabled] .btn-default.focus {
 }
 
 
-/*cambiar el estilo del boton delogin*/
 
 .btn-primary {
-  color: #fff;
-  background-color: #337ab7;
+  color: white;
+  background-color: #001348 !important;
+  font-weight: bold;
   border-color: #2e6da4;
+  margin-bottom: 1%;
 }
+
+
+
 
 .btn-primary:focus,
 .btn-primary.focus {
@@ -11494,11 +11491,6 @@ fieldset[disabled] .btn-default.focus {
   background-color: #286090;
   border-color: #204d74;
 }
-
-
-
-
-
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
@@ -11540,9 +11532,12 @@ fieldset[disabled] .btn-primary.focus {
   color: #337ab7;
   background-color: #fff;
 }
+
+/*boton de historial*/
+
 .btn-success {
   color: #fff;
-  background-color: #5cb85c;
+  background-color: #001348;
   border-color: #4cae4c;
 }
 .btn-success:focus,
@@ -11553,9 +11548,12 @@ fieldset[disabled] .btn-primary.focus {
 }
 .btn-success:hover {
   color: #fff;
-  background-color: #449d44;
+  background-color: #001348;
   border-color: #398439;
 }
+
+
+
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
@@ -11654,11 +11652,16 @@ fieldset[disabled] .btn-info.focus {
   color: #5bc0de;
   background-color: #fff;
 }
+
+/*tamaño de los botnes*/
 .btn-warning {
   color: #fff;
-  background-color: #f0ad4e;
+  background-color: #001348;
   border-color: #eea236;
+
 }
+
+
 .btn-warning:focus,
 .btn-warning.focus {
   color: #fff;
@@ -11666,8 +11669,8 @@ fieldset[disabled] .btn-info.focus {
   border-color: #985f0d;
 }
 .btn-warning:hover {
-  color: #fff;
-  background-color: #ec971f;
+  color: #eea236;
+  background-color: #172858;
   border-color: #d58512;
 }
 .btn-warning:active,
@@ -11711,11 +11714,15 @@ fieldset[disabled] .btn-warning.focus {
   color: #f0ad4e;
   background-color: #fff;
 }
+
+/*agregar vacaciones*/
 .btn-danger {
   color: #fff;
-  background-color: #d9534f;
+  background-color: #001348;
   border-color: #d43f3a;
 }
+
+
 .btn-danger:focus,
 .btn-danger.focus {
   color: #fff;
@@ -11724,9 +11731,12 @@ fieldset[disabled] .btn-warning.focus {
 }
 .btn-danger:hover {
   color: #fff;
-  background-color: #c9302c;
+  background-color: #001348;
   border-color: #ac2925;
 }
+
+
+
 .btn-danger:active,
 .btn-danger.active,
 .open > .dropdown-toggle.btn-danger {
@@ -15153,19 +15163,26 @@ body {
     font-weight: 400;
     font-size: 14px;
     color: #555;
-    background-image: url("../img/fondito.jpg");
+     background-image: url('pabic.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
 
+
+
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: #edeff5;
+    color: #15234c;
 }
+
+
+
+
 
 h1 {
 	font-size: 35px;
@@ -16499,7 +16516,7 @@ button.toast-close-button {
   background-color: #030303;
 }
 .toast-success {
-  background-color: #51A351;
+  background-color: #44A9ED;
 }
 .toast-error {
   background-color: #BD362F;
@@ -16577,7 +16594,7 @@ button.toast-close-button {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;
+  font-size: 15px;
   line-height: 1;
   letter-spacing: normal;
   text-transform: none;

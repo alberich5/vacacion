@@ -27,9 +27,9 @@
 
                         <div class="col-md-10 form-group{{ $errors->has('username') ? ' has-error' : '' }}">
 
-                                <div class="col-md-offset-4 input-group col-md-8">
-                                <span class="input-group-addon" id="basic-addon1">
-                                   <i class="material-icons md-18">account_circle</i>
+                                <div class="col-md-offset-4 input-group col-md-8" >
+                                <span class="input-group-addon" id="basic-addon1" id="iconito" >
+                                   <i class="material-icons md-18" id="iconito">account_circle</i>
 
                                 </span>
 
@@ -71,7 +71,7 @@
 
                         <div class="form-group col-md-10">
 
-                                <button type="submit" class="btn btn-primary col-md-offset-4 col-md-8">
+                                <button type="submit" class="btn btn-primary col-md-offset-4 col-md-8" id="botonLogin">
                                     Iniciar sesion
                                 </button>
 

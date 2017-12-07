@@ -16,9 +16,9 @@
             <div class="row" >
               
 
-                  <div class="panel panel-default col-sm-10 col-sm-offset-1">
+                  <div class="panel panel-default col-sm-10 col-sm-offset-1" id="contenedorUsuario">
                   <!--      inicio Wizard container        -->
-                  <div class="panel-heading"> <h3 align="center">ELEMENTOS</h3></div>
+                  <div class="panel-heading" id="titulo"> <h3 align="center" id="tituloText">ELEMENTOS</h3></div>
             
             </br>
             </br>
@@ -79,7 +79,7 @@
 
                                 <div class=" input-group col-md-8 col-md-offset-1">
                                     <span class="input-group-addon" id="basic-addon1">
-                                      <i class="material-icons md-18">&nbsp; &nbsp;&nbsp;</i>   
+                                      <i class="material-icons md-18">person</i>   
                                     </span>
 
                                     <input id="paterno" type="paterno" class="form-control" name="paterno" value=""  autofocus placeholder="Apellido paterno" aria-describedby="basic-addon1" style="text-transform:uppercase;"  v-model="searchUsuario.paterno">
@@ -95,7 +95,7 @@
 
                                 <div class=" input-group col-md-8 col-md-offset-1">
                                     <span class="input-group-addon" id="basic-addon1">
-                                      <i class="material-icons md-18">&nbsp; &nbsp;&nbsp;</i>   
+                                      <i class="material-icons md-18">person</i>   
                                     </span>
 
                                     <input id="materno" type="materno" class="form-control" name="materno" value=""  autofocus placeholder="Apellido materno" aria-describedby="basic-addon1" style="text-transform:uppercase;"  v-model="searchUsuario.materno" >
@@ -115,6 +115,7 @@
                                 
 
                                 <input type="submit" class="btn btn-primary" value="BUSCAR">
+                                <input type="submit" class="btn btn-primary" value="cancelar" v-on:click.prevent="cancelar()">
                                 
                
                         </div>
@@ -279,9 +280,9 @@ Vue.component('data-table', {
         row.push(
 
 
-          "<a href='#'' class='btn btn-warning btn-sm' title='Ver informacion elemento' onclick='"+"ver("+item.id_elemento+")'"+"> <i class='material-icons md-18'>visibility</i></a>&nbsp;"+
-          "<a  href='#'' class='btn btn-danger btn-sm' title='Agregar vacaciones' onclick='"+"editar("+item.id_elemento+")'"+"><i class='material-icons md-18'>add_circle_outline</i></a>"+
-          "<a href='#'' class='btn btn-success btn-sm' title='Historial' onclick='"+"historial("+item.id_elemento+")'"+"><i class='material-icons md-18'>list</i></a>"
+          "<a href='#'' class='btn btn-warning btn-sm' data-tooltip='VER' title='Ver informacion elemento' onclick='"+"ver("+item.id_elemento+")'"+"> <i class='material-icons md-18'>visibility</i></a>&nbsp;"+
+          "<a  href='#'' class='btn btn-danger btn-sm' data-tooltip='AGREGAR' title='Agregar vacaciones' onclick='"+"editar("+item.id_elemento+")'"+"><i class='material-icons md-18'>add_circle_outline</i></a>&nbsp;"+
+          "<a href='#'' class='btn btn-success btn-sm' data-tooltip='HISTORIAL' title='Historial' onclick='"+"historial("+item.id_elemento+")'"+"><i class='material-icons md-18'>list</i></a>"
         );
 
 
@@ -619,7 +620,15 @@ idPermisoImprimir:''
                 getIdElemento:function()
                 {
                  this.idElemento=document.getElementById('id_usuario').value;
+                },
+                cancelar:function(){
+                  swal(
+                  'Oops...',
+                  'Something went wrong!',
+                  'success'
+                );
                 }
+
 
         },//end metodos
 

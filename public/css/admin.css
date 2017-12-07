@@ -7,7 +7,7 @@
 #menu{
   background-color: white !important;
   width: 80%;
-  height: 500px;
+  height: 100%;
   margin-top: 2%;
     box-shadow: 0px 2px 19px 5px rgba(184,151,184,0.70);
   border-radius: 28px 28px 28px 28px;
@@ -16,7 +16,7 @@
 /*parte de la plantilla de admisnistrador*/
 #body{
 
-  background-image: url('pabic.jpg');
+  background-color: #001348;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -45,6 +45,136 @@
   border-radius: 0px 0px 25px 25px;
   /*box-shadow: 0px 6px 21px 1px rgba(2,35,88,1);*/
 }
+
+#tituloText{
+  color: white !important;
+}
+
 #areas{
   color: #03134e !important;
+}
+
+#modalEditar{
+  color: white !important;
+
+}
+#modalCabecera{
+  background-color: #172858;
+  border-radius: 5px;
+}
+
+#colorUl{
+ color: #001348 !important;
+ font-weight: bold;
+}
+
+
+#btnguardar{
+  margin-top: -5px;
+}
+
+
+
+/**
+ * Demo styles
+ * Not needed for tooltips to work
+ */
+
+/* `border-box`... ALL THE THINGS! */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+header,
+.demo,
+.demo p {
+  margin: 4em 0;
+  text-align: center;
+}
+
+/**
+ * Tooltip Styles
+ */
+
+/* agregar lo cambios del proyecto final */
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+  /* TRanciciones de stilo */
+  transition-property: opacity, left, top, height;
+  /*transition-duration: 3s, 5s;*/
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 7px;
+  width: 160px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: blue;
+  /*cambio de color del toltip*/
+  background-color: #2E3D69;
+   /*fin de color del toltip*/
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* son los estilos de las forma del triangulo*/
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
 }

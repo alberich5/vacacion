@@ -4964,9 +4964,6 @@ tbody.collapse.in {
   vertical-align: middle;
 }
 
-
-/*cambios de los iconos*/
-
 .input-group-addon {
   padding: 6px 12px;
   font-size: 14px;
@@ -4974,14 +4971,10 @@ tbody.collapse.in {
   line-height: 1;
   color: #555555;
   text-align: center;
-  background-color: #D0D4DD !important;
-  border: 1px solid #D0D4DD !important;
+  background-color: #eeeeee;
+  border: 1px solid #ccd0d2;
   border-radius: 4px;
 }
-
-
-
-
 
 .input-group-addon.input-sm,
 .input-group-sm > .input-group-addon,
@@ -11473,16 +11466,11 @@ fieldset[disabled] .btn-default.focus {
   color: #fff;
   background-color: #333;
 }
-
-
-/*cambiar el estilo del boton delogin*/
-
 .btn-primary {
   color: #fff;
   background-color: #337ab7;
   border-color: #2e6da4;
 }
-
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
@@ -11494,11 +11482,6 @@ fieldset[disabled] .btn-default.focus {
   background-color: #286090;
   border-color: #204d74;
 }
-
-
-
-
-
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
@@ -15153,7 +15136,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     color: #555;
-    background-image: url("../img/fondito.jpg");
+    background-color: #001348;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-font-smoothing: antialiased;

@@ -11,8 +11,9 @@
     <title>{{ config('app.name', 'SIPAB') }}</title>
 
     <!-- Styles -->
- <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
+ <link href="{{asset('css/appAdmin.css')}}" rel="stylesheet" type="text/css">
  <link href="{{asset('css/admin.css')}}" rel="stylesheet" type="text/css">
+  <link href="{{asset('css/sweetalert2.css')}}" rel="stylesheet" type="text/css">
 
 
      @yield('css')
@@ -42,12 +43,12 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
                                <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >
                                     VACACIONES <span class="caret"></span>
                                 </a>
 
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="{{ route('administrador.usuario.index') }}">Listar</a></li>
+                                <ul class="dropdown-menu" role="menu" >
+                                    <li><a href="{{ route('administrador.usuario.index') }}" id="colorUl">Listar</a></li>
 
                                 </ul>
                                </li>
@@ -69,7 +70,7 @@
                                     <li>
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
+                                                     document.getElementById('logout-form').submit();" id="colorUl">
                                             Logout
                                         </a>
 

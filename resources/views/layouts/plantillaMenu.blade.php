@@ -11,7 +11,7 @@
     <title>{{ config('app.name', 'SIPAB') }}</title>
 
     <!-- Styles -->
-    <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('css/appMenu.css')}}" rel="stylesheet" type="text/css">
       <link href="{{asset('css/admin.css')}}" rel="stylesheet" type="text/css">
     @yield('css')
 

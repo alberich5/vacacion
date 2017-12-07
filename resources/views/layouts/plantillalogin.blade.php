@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
+  
       <link href="{{asset('css/login.css')}}" rel="stylesheet" type="text/css">
     @yield('css')
 
