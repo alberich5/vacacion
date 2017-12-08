@@ -114,10 +114,9 @@
                         <div class="row col-sm-offset-1">
                                 
 
-                                <input type="submit" class="btn btn-primary" value="BUSCAR">
-                  
+                                <input type="submit" class="btn btn-primary btn-sm" value="buscar">
                                 <input type="submit" class="btn btn-aceptar btn-sm " value="agregar">
-                                <input type="submit" class="btn btn-editar btn-sm" value="editar">
+                                
                                 <input type="submit" class="btn btn-editar2 btn-sm " value="editar">
                                 <input type="submit" class="btn btn-ver btn-sm" value="ver">
                                 <input type="submit" class="btn btn-cancelar btn-sm" value="cancelar" v-on:click.prevent="cancelar()">
@@ -134,8 +133,10 @@
 
                       <!--      tabla usuarios      -->
                       
-
-                      Buscar : <input v-model="search">
+                        <div id="busca">
+                          Buscar : <input class="form-group" v-model="search">
+                        </div>
+                      
                       <hr>
                       <data-table :users="filteredUsers"></data-table>
 
@@ -632,7 +633,7 @@ idPermisoImprimir:''
                   swal(
                   'Oops...',
                   'Something went wrong!',
-                  'success'
+                  'error'
                 );
                 }
 

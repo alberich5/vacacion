@@ -5,7 +5,7 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header" id="modalCabecera">
-				<button type="button" class="close" data-dismiss="modal" id="cerrar">
+				<button type="button" class="close" data-dismiss="modal" >
 					<span>&times;</span>
 				</button>
 				<h4 align="center" id="modalEditar">Editar</h4>
@@ -162,7 +162,7 @@
 
       </div>
 			<div class="modal-footer">
-				<input  type="button" class="btn btn-primary" value="Cancelar" data-dismiss="modal">
+				<input  type="button" class="btn btn-eliminar" value="Cancelar" data-dismiss="modal">
 				<input type="button" class="btn btn-primary" value="Guardar" @click="createUsuario" id="btnguardar" >
 			</div>
 <!---
