@@ -115,7 +115,14 @@
                                 
 
                                 <input type="submit" class="btn btn-primary" value="BUSCAR">
-                                <input type="submit" class="btn btn-primary" value="cancelar" v-on:click.prevent="cancelar()">
+                  
+                                <input type="submit" class="btn btn-aceptar btn-sm " value="agregar">
+                                <input type="submit" class="btn btn-editar btn-sm" value="editar">
+                                <input type="submit" class="btn btn-editar2 btn-sm " value="editar">
+                                <input type="submit" class="btn btn-ver btn-sm" value="ver">
+                                <input type="submit" class="btn btn-cancelar btn-sm" value="cancelar" v-on:click.prevent="cancelar()">
+                                <input type="submit" class="btn btn-eliminar btn-sm" value="eliminar">
+                                <input type="submit" class="btn btn-guardar btn-sm" value="guardar">
                                 
                
                         </div>

@@ -11,7 +11,7 @@
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
 
-                        <div class="col-md-offset-3 input-group col-md-8">
+                        <div class="col-md-offset-3 input-group col-md-8" id="errores">
                         @if ($errors->has('username'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('username') }}</strong>

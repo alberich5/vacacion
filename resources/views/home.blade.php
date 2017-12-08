@@ -23,8 +23,8 @@
                 </div>
             </div>
             <div class="row">
-
-                <div id="modulo1" class="col-sm-4 portfolio-item" style="display:block;">
+                
+                <div id="" class="col-sm-4 portfolio-item" style="display:block;">
                     <a href="{{ url('administrador') }} " class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -34,7 +34,7 @@
                         <img src="{{ asset('/img/cabin.png') }}" class="img-responsive" alt="Cabin" title="omar">
                     </a>
                 </div>
-                <div id="modulo2" class="col-sm-4 portfolio-item " style="display:block;">
+                <div id="" class="col-sm-4 portfolio-item " style="display:none;">
                     <a href="{{ url('/capacitacion') }}" class="portfolio-link" data-toggle="modal" >
                         <div class="caption">
                             <div class="caption-content">
@@ -44,7 +44,7 @@
                         <img src="{{ asset('/img/cake.png') }}" class="img-responsive" alt="Slice of cake">
                     </a>
                 </div>
-                <div id="modulo3" class="col-sm-4 portfolio-item" style="display:none;" >
+                <div id="" class="col-sm-4 portfolio-item" style="display:none;" >
                     <a href="{{ url('/arma') }}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -84,6 +84,7 @@
                         <img src="{{ asset('/img/submarine.png') }}" class="img-responsive" alt="Submarine">
                     </a>
                 </div>
+
             </div>
         </div>
     </section>
