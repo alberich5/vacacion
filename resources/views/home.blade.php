@@ -44,7 +44,7 @@
                         <img src="{{ asset('/img/cake.png') }}" class="img-responsive" alt="Slice of cake">
                     </a>
                 </div>
-                <div id="modulo3" class="col-sm-4 portfolio-item" style="display:block;" >
+                <div id="modulo3" class="col-sm-4 portfolio-item" style="display:none;" >
                     <a href="{{ url('/arma') }}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -54,7 +54,7 @@
                         <img src="{{ asset('/img/circus.png') }}" class="img-responsive" alt="Circus tent">
                     </a>
                 </div>
-                <div id="modulo4" class="col-sm-4 portfolio-item" style="display:block;" >
+                <div id="modulo4" class="col-sm-4 portfolio-item" style="display:none;" >
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -64,7 +64,7 @@
                         <img src="{{ asset('/img/game.png') }}" class="img-responsive" alt="Game controller">
                     </a>
                 </div>
-                <div id="modulo5" class="col-sm-4 portfolio-item" style="display:block;">
+                <div id="modulo5" class="col-sm-4 portfolio-item" style="display:none;">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -74,7 +74,7 @@
                         <img src="{{ asset('/img/safe.png') }}" class="img-responsive" alt="Safe">
                     </a>
                 </div>
-                <div id="modulo6" class="col-sm-4 portfolio-item" style="display:block;">
+                <div id="modulo6" class="col-sm-4 portfolio-item" style="display:none;">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">

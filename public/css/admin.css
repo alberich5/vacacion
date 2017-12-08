@@ -68,10 +68,40 @@
  font-weight: bold;
 }
 
+#colorUlsalir{
+ color: red !important;
+ font-weight: bold;
+}
+
 
 #btnguardar{
   margin-top: -5px;
 }
+#cerrar{
+  background-color: yellow !important;
+  color: red;
+  border-radius: 40% !important;
+
+}
+
+#modalshow{
+  background-color: #172858;
+  border-radius: 5px;
+}
+
+
+#colorTabla{
+
+  color: #001348 !important;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
 
 
 

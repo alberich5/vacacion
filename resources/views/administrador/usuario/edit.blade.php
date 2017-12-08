@@ -5,7 +5,7 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header" id="modalCabecera">
-				<button type="button" class="close" data-dismiss="modal">
+				<button type="button" class="close" data-dismiss="modal" id="cerrar">
 					<span>&times;</span>
 				</button>
 				<h4 align="center" id="modalEditar">Editar</h4>

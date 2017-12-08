@@ -11537,8 +11537,8 @@ fieldset[disabled] .btn-primary.focus {
 
 .btn-success {
   color: #fff;
-  background-color: #001348;
-  border-color: #4cae4c;
+  background-color: #152961;
+  border-color: #152961;
 }
 .btn-success:focus,
 .btn-success.focus {
@@ -11548,8 +11548,8 @@ fieldset[disabled] .btn-primary.focus {
 }
 .btn-success:hover {
   color: #fff;
-  background-color: #001348;
-  border-color: #398439;
+  background-color: #152961;
+  border-color: #152961;
 }
 
 
@@ -11656,8 +11656,8 @@ fieldset[disabled] .btn-info.focus {
 /*tamaño de los botnes*/
 .btn-warning {
   color: #fff;
-  background-color: #001348;
-  border-color: #eea236;
+  background-color: #36383e;
+  border-color: #36383e;
 
 }
 
@@ -11670,8 +11670,8 @@ fieldset[disabled] .btn-info.focus {
 }
 .btn-warning:hover {
   color: #eea236;
-  background-color: #172858;
-  border-color: #d58512;
+  background-color: #36383e;
+  border-color: #36383e;
 }
 .btn-warning:active,
 .btn-warning.active,

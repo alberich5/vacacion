@@ -4,11 +4,11 @@
 <div class="modal fade" id="show">
 	<div class="modal-dialog">
 		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal">
+			<div class="modal-header" id="modalCabecera">
+				<button type="button" class="close" data-dismiss="modal" id="cerrar">
 					<span>&times;</span>
 				</button>
-				<h4 align="center">Mostrar</h4>
+				<h4 align="center" id="modalEditar">Mostrar</h4>
           <br>
           <div class="row" v-for="usuario in users" v-if="usuario.id_elemento==idElemento" >
             <div class="col-sm-10 col-sm-offset-1">

@@ -70,7 +70,7 @@
                                     <li>
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();" id="colorUl">
+                                                     document.getElementById('logout-form').submit();" id="colorUlsalir">
                                             Logout
                                         </a>
 
